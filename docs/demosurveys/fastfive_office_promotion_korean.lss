@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>426</DBVersion>
+ <languages>
+  <language>ko</language>
+ </languages>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <code><![CDATA[privacyConsent]]></code>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <code><![CDATA[marketingConsent]]></code>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+ <answer_l10ns>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>aid</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[1]]></id>
+    <aid><![CDATA[1]]></aid>
+    <answer><![CDATA[상담을 위한 개인정보 수집과 이용 동의 (필수)]]></answer>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[2]]></id>
+    <aid><![CDATA[2]]></aid>
+    <answer><![CDATA[혜택 안내를 위한 마케팅 활용 동의]]></answer>
+    <language><![CDATA[ko]]></language>
+   </row>
+  </rows>
+ </answer_l10ns>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[1]]></gid>
+    <sid><![CDATA[100001]]></sid>
+    <group_order><![CDATA[1]]></group_order>
+    <randomization_group/>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+  </rows>
+ </groups>
+ <group_l10ns>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[1]]></id>
+    <gid><![CDATA[1]]></gid>
+    <group_name><![CDATA[상담 신청 정보]]></group_name>
+    <description><![CDATA[<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
+<h4 style="color: #0066cc;">계약 기간 2배 이용 제공</h4>
+<h4 style="color: #0066cc;">계약 인원 2배 출입권 제공</h4>
+<p><strong>*출입권</strong> - 인당 30만 원/월</p>
+</div>
+<ul>
+<li>신규 계약 고객에 한해 혜택 적용됩니다.</li>
+<li>공실 현황에 따라 선착순 마감될 수 있습니다.</li>
+<li>회원료 외 추가 비용은 일절 발생하지 않습니다.</li>
+</ul>]]></description>
+    <language><![CDATA[ko]]></language>
+    <sid><![CDATA[100001]]></sid>
+    <group_order><![CDATA[1]]></group_order>
+    <randomization_group/>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+  </rows>
+ </group_l10ns>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>encrypted</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[1]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[100001]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[companyName]]></title>
+    <preg/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[1]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[2]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[100001]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[mobilePhone]]></title>
+    <preg/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[2]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[100001]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[N]]></type>
+    <title><![CDATA[userCount]]></title>
+    <preg/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[3]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[100001]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[email]]></title>
+    <preg/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[4]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[100001]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[M]]></type>
+    <title><![CDATA[agreements]]></title>
+    <preg/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[5]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+  </rows>
+ </questions>
+ <question_l10ns>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>qid</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>script</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[1]]></id>
+    <qid><![CDATA[1]]></qid>
+    <question><![CDATA[회사명(없을 시 성명)]]></question>
+    <help/>
+    <script/>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[2]]></id>
+    <qid><![CDATA[2]]></qid>
+    <question><![CDATA[휴대전화 번호]]></question>
+    <help/>
+    <script/>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[3]]></id>
+    <qid><![CDATA[3]]></qid>
+    <question><![CDATA[사용 인원]]></question>
+    <help/>
+    <script/>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[4]]></id>
+    <qid><![CDATA[4]]></qid>
+    <question><![CDATA[이메일]]></question>
+    <help/>
+    <script/>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[5]]></id>
+    <qid><![CDATA[5]]></qid>
+    <question><![CDATA[약관에 모두 동의합니다.]]></question>
+    <help><![CDATA[*마케팅 활용 동의를 하신 분들만 혜택을 받을 수 있어요]]></help>
+    <script/>
+    <language><![CDATA[ko]]></language>
+   </row>
+  </rows>
+ </question_l10ns>
+ <question_attributes>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>attribute</fieldname>
+   <fieldname>value</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <attribute><![CDATA[em_validation_q]]></attribute>
+    <value><![CDATA[/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value><![CDATA[올바른 이메일 주소를 입력해주세요.]]></value>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <attribute><![CDATA[min_num_value]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <attribute><![CDATA[em_validation_q_tip]]></attribute>
+    <value><![CDATA[1명 이상의 사용 인원을 입력해주세요.]]></value>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <attribute><![CDATA[min_answers]]></attribute>
+    <value><![CDATA[1]]></value>
+   </row>
+  </rows>
+ </question_attributes>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>gsid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>showsurveypolicynotice</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>questionindex</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+   <fieldname>tokenencryptionoptions</fieldname>
+   <fieldname>ipanonymize</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[100001]]></sid>
+    <gsid><![CDATA[1]]></gsid>
+    <admin><![CDATA[FASTFIVE]]></admin>
+    <expires><![CDATA[2025-11-30 23:59:59]]></expires>
+    <startdate/>
+    <adminemail><![CDATA[contact@fastfive.co.kr]]></adminemail>
+    <anonymized><![CDATA[N]]></anonymized>
+    <faxto/>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[N]]></savetimings>
+    <template><![CDATA[vanilla]]></template>
+    <language><![CDATA[ko]]></language>
+    <additional_languages/>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[Y]]></allowsave>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[Y]]></allowprev>
+    <printanswers><![CDATA[N]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[Y]]></refurl>
+    <showsurveypolicynotice><![CDATA[0]]></showsurveypolicynotice>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[N]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email><![CDATA[contact@fastfive.co.kr]]></bounce_email>
+    <attributedescriptions/>
+    <emailresponseto/>
+    <emailnotificationto><![CDATA[contact@fastfive.co.kr]]></emailnotificationto>
+    <tokenlength><![CDATA[-1]]></tokenlength>
+    <showxquestions><![CDATA[Y]]></showxquestions>
+    <showgroupinfo><![CDATA[B]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bouncetime/>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <bounceaccounttype/>
+    <bounceaccounthost/>
+    <bounceaccountpass/>
+    <bounceaccountencryption/>
+    <bounceaccountuser/>
+    <showwelcome><![CDATA[Y]]></showwelcome>
+    <showprogress><![CDATA[Y]]></showprogress>
+    <questionindex><![CDATA[0]]></questionindex>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <googleanalyticsstyle/>
+    <googleanalyticsapikey/>
+    <tokenencryptionoptions/>
+    <ipanonymize><![CDATA[N]]></ipanonymize>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_policy_notice</fieldname>
+   <fieldname>surveyls_policy_error</fieldname>
+   <fieldname>surveyls_policy_notice_label</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[100001]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[ko]]></surveyls_language>
+    <surveyls_title><![CDATA[FASTFIVE 패파 최초 혜택! 초역세권 소형 사무실 더블 혜택 이벤트]]></surveyls_title>
+    <surveyls_description><![CDATA[<h2>11월 한정 특별 이벤트</h2>
+<p>11월 30일까지만 만날 수 있는 시크릿 베네핏</p>]]></surveyls_description>
+    <surveyls_welcometext><![CDATA[<h3>패파 최초 혜택! 초역세권 소형 사무실 더블 혜택 이벤트</h3>
+<p style="color: #666;">*해당 프로모션은 11/30(일)까지만 확인 가능합니다</p>]]></surveyls_welcometext>
+    <surveyls_endtext><![CDATA[<h3>더블 할인 사무실 확인 완료!</h3>
+<p>상담 신청이 완료되었습니다. 빠른 시일 내에 연락드리겠습니다.</p>
+<p style="color: #666;">*마케팅 활용 동의를 하신 분들만 혜택을 받을 수 있어요</p>
+
+<div style="margin-top: 30px; padding: 20px; background-color: #f8f9fa; border-radius: 8px;">
+<h4>FASTFIVE 문의</h4>
+<p><strong>전화상담:</strong> 1833-5550</p>
+<p><strong>이메일:</strong> contact@fastfive.co.kr</p>
+<p><strong>운영시간:</strong><br>
+월~목요일 9:30 - 18:00<br>
+금요일 9:30 - 17:00<br>
+점심시간 12:00 - 13:00</p>
+<p><strong>카카오톡:</strong> @FASTFIVE</p>
+</div>]]></surveyls_endtext>
+    <surveyls_policy_notice/>
+    <surveyls_policy_notice_label/>
+    <surveyls_url><![CDATA[https://www.fastfive.co.kr]]></surveyls_url>
+    <surveyls_urldescription><![CDATA[FASTFIVE 홈페이지로 이동]]></surveyls_urldescription>
+    <surveyls_email_invite_subj><![CDATA[FASTFIVE 더블 혜택 이벤트 안내]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[안녕하세요,
+
+FASTFIVE 더블 혜택 이벤트에 초대합니다.
+
+{SURVEYNAME}
+{SURVEYURL}
+
+감사합니다.
+FASTFIVE 드림]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[FASTFIVE 더블 혜택 이벤트 - 마감 임박]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[안녕하세요,
+
+FASTFIVE 더블 혜택 이벤트 마감이 임박했습니다.
+11월 30일까지만 신청 가능합니다.
+
+{SURVEYNAME}
+{SURVEYURL}
+
+감사합니다.
+FASTFIVE 드림]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[FASTFIVE 상담 신청 확인]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[안녕하세요,
+
+FASTFIVE 상담 신청이 접수되었습니다.
+
+{SURVEYURL}
+
+감사합니다.
+FASTFIVE 드림]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[FASTFIVE 상담 신청 완료]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[안녕하세요,
+
+FASTFIVE 더블 혜택 이벤트 상담 신청이 완료되었습니다.
+빠른 시일 내에 담당자가 연락드리겠습니다.
+
+*마케팅 활용 동의를 하신 분들만 혜택을 받을 수 있어요
+
+문의사항이 있으시면 아래로 연락 주세요:
+전화: 1833-5550
+이메일: contact@fastfive.co.kr
+
+감사합니다.
+FASTFIVE 드림]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[5]]></surveyls_dateformat>
+    <surveyls_attributecaptions/>
+    <email_admin_notification_subj><![CDATA[FASTFIVE 새로운 상담 신청]]></email_admin_notification_subj>
+    <email_admin_notification><![CDATA[새로운 상담 신청이 접수되었습니다.
+
+설문: {SURVEYNAME}
+
+개별 응답 보기:
+{VIEWRESPONSEURL}
+
+개별 응답 편집:
+{EDITRESPONSEURL}
+
+통계 보기:
+{STATISTICSURL}]]></email_admin_notification>
+    <email_admin_responses_subj><![CDATA[FASTFIVE 상담 신청 응답]]></email_admin_responses_subj>
+    <email_admin_responses><![CDATA[새로운 상담 신청 응답이 제출되었습니다.
+
+설문: {SURVEYNAME}
+
+개별 응답 보기:
+{VIEWRESPONSEURL}
+
+개별 응답 편집:
+{EDITRESPONSEURL}
+
+통계 보기:
+{STATISTICSURL}
+
+참여자가 제공한 답변:
+{ANSWERTABLE}]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+    <attachments/>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+ <themes>
+  <theme>
+   <sid>100001</sid>
+   <template_name>vanilla</template_name>
+   <config>
+    <options>inherit</options>
+   </config>
+  </theme>
+ </themes>
+ <themes_inherited>
+  <theme>
+   <sid>100001</sid>
+   <template_name>vanilla</template_name>
+   <config>
+    <options>
+     <ajaxmode>off</ajaxmode>
+     <brandlogo>on</brandlogo>
+     <container>on</container>
+     <backgroundimage>off</backgroundimage>
+     <animatebody>off</animatebody>
+     <bodyanimation>fadeInRight</bodyanimation>
+     <bodyanimationduration>500</bodyanimationduration>
+     <animatequestion>off</animatequestion>
+     <questionanimation>flipInX</questionanimation>
+     <questionanimationduration>500</questionanimationduration>
+     <animatealert>off</animatealert>
+     <alertanimation>shake</alertanimation>
+     <alertanimationduration>500</alertanimationduration>
+     <font>noto</font>
+     <bodybackgroundcolor>#ffffff</bodybackgroundcolor>
+     <fontcolor>#444444</fontcolor>
+     <questionbackgroundcolor>#ffffff</questionbackgroundcolor>
+     <questionborder>on</questionborder>
+     <questioncontainershadow>on</questioncontainershadow>
+     <checkicon>f00c</checkicon>
+     <animatecheckbox>on</animatecheckbox>
+     <checkboxanimation>rubberBand</checkboxanimation>
+     <checkboxanimationduration>500</checkboxanimationduration>
+     <animateradio>on</animateradio>
+     <radioanimation>zoomIn</radioanimation>
+     <radioanimationduration>500</radioanimationduration>
+     <zebrastriping>off</zebrastriping>
+     <stickymatrixheaders>off</stickymatrixheaders>
+     <greyoutselected>off</greyoutselected>
+     <hideprivacyinfo>off</hideprivacyinfo>
+     <crosshover>off</crosshover>
+     <showpopups>1</showpopups>
+     <showclearall>off</showclearall>
+     <questionhelptextposition>top</questionhelptextposition>
+     <notables>1</notables>
+    </options>
+   </config>
+  </theme>
+ </themes_inherited>
+</document>
