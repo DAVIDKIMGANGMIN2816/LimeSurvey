@@ -434,6 +434,24 @@ class GlobalSettings extends SurveyCommonAction
         SettingGlobal::setSetting('timeadjust', $savetime);
         SettingGlobal::setSetting('usercontrolSameGroupPolicy', strip_tags(Yii::app()->getRequest()->getPost('usercontrolSameGroupPolicy', '')));
 
+        // Save business information settings
+        SettingGlobal::setSetting('business_online_sales_number', strip_tags(Yii::app()->getRequest()->getPost('business_online_sales_number', '')));
+        SettingGlobal::setSetting('business_registration_number', strip_tags(Yii::app()->getRequest()->getPost('business_registration_number', '')));
+        SettingGlobal::setSetting('business_operating_status', strip_tags(Yii::app()->getRequest()->getPost('business_operating_status', '')));
+        SettingGlobal::setSetting('business_corporate_status', strip_tags(Yii::app()->getRequest()->getPost('business_corporate_status', '')));
+        SettingGlobal::setSetting('business_name', strip_tags(Yii::app()->getRequest()->getPost('business_name', '')));
+        SettingGlobal::setSetting('business_representative_name', strip_tags(Yii::app()->getRequest()->getPost('business_representative_name', '')));
+        SettingGlobal::setSetting('business_phone', strip_tags(Yii::app()->getRequest()->getPost('business_phone', '')));
+        SettingGlobal::setSetting('business_sales_method', strip_tags(Yii::app()->getRequest()->getPost('business_sales_method', '')));
+        SettingGlobal::setSetting('business_products', strip_tags(Yii::app()->getRequest()->getPost('business_products', '')));
+        SettingGlobal::setSetting('business_email', strip_tags(Yii::app()->getRequest()->getPost('business_email', '')));
+        SettingGlobal::setSetting('business_registration_date', strip_tags(Yii::app()->getRequest()->getPost('business_registration_date', '')));
+        SettingGlobal::setSetting('business_location', strip_tags(Yii::app()->getRequest()->getPost('business_location', '')));
+        SettingGlobal::setSetting('business_street_address', strip_tags(Yii::app()->getRequest()->getPost('business_street_address', '')));
+        SettingGlobal::setSetting('business_domain', strip_tags(Yii::app()->getRequest()->getPost('business_domain', '')));
+        SettingGlobal::setSetting('business_server_location', strip_tags(Yii::app()->getRequest()->getPost('business_server_location', '')));
+        SettingGlobal::setSetting('business_registration_authority', strip_tags(Yii::app()->getRequest()->getPost('business_registration_authority', '')));
+
         $request = App()->request;
         Yii::app()->formExtensionService->applySave('globalsettings', $request);
 
