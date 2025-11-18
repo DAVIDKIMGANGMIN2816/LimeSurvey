@@ -50,4 +50,21 @@ Permission revocation not supported; must uninstall app to revoke
 
 ## Files
 
-This example serves as a reference for creating surveys in Korean for mobile game user research.
+- **god-three-kingdoms-survey.lss**: A complete LimeSurvey template file in Korean that can be imported into LimeSurvey
+
+This example demonstrates:
+- Korean language survey implementation
+- Multi-group question structure
+- Various question types (List, Multiple choice, Yes/No, Text)
+- Help text for providing additional context
+- Integration of game features into survey questions
+
+## Usage
+
+To use this survey template:
+1. Open your LimeSurvey admin panel
+2. Go to "Create survey" or "Import survey"
+3. Select the `god-three-kingdoms-survey.lss` file
+4. The survey will be imported with all questions and settings in Korean
+
+This serves as a reference for creating surveys in Korean for mobile game user research.
