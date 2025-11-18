@@ -82,6 +82,9 @@ $questionEditor = $questionEditor ?? false;
     </div>
     <!-- Help button -->
     <?php $this->renderPartial('/admin/super/help_button_dropup', ['questionEditor' => $questionEditor]); ?>
+    
+    <!-- Business Information -->
+    <?php $this->renderPartial('/admin/super/business_info'); ?>
 </footer>
 <div id="bottomScripts">
     <###end###>
