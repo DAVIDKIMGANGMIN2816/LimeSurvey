@@ -248,6 +248,11 @@ App()->getController()->renderPartial('/surveyAdministration/partial/topbar/_mod
 $this->renderPartial('/admin/htmleditor/modal_editor_partial');
 ?>
 
+<?php
+// Display Korean business registration information if enabled
+$this->renderPartial('/admin/super/business_info');
+?>
+
 </body>
 
 </html>
