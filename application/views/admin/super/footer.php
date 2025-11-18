@@ -50,6 +50,10 @@ foreach ($systemInfos as $key => $systemInfo) {
 }
 $questionEditor = $questionEditor ?? false;
 ?>
+
+<!-- Business Information Section -->
+<?php $this->renderPartial('/admin/super/business_info'); ?>
+
 <!-- Footer -->
 <footer class="container-fluid footer d-flex flex-grow-1 flex-column justify-content-end text-end">
     <div>
