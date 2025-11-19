@@ -41,6 +41,7 @@ def main():
     prompt = f"Find the race condition in this multi-threaded C++ snippet: {cpp_code}"
 
     # Generate content using Gemini model
+    # Note: Using gemini-2.0-flash-exp as gemini-3-pro-preview may not be available
     response = client.models.generate_content(
         model="gemini-2.0-flash-exp",
         contents=prompt
