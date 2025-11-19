@@ -10,13 +10,13 @@ import argparse
 from google import genai
 
 
-def analyze_race_condition(code_snippet, model="gemini-2.0-flash-exp"):
+def analyze_race_condition(code_snippet, model="gemini-3-pro-preview"):
     """
     Analyze C++ code for race conditions using Google GenAI.
     
     Args:
         code_snippet (str): The C++ code to analyze
-        model (str): The Gemini model to use (default: gemini-2.0-flash-exp)
+        model (str): The Gemini model to use (default: gemini-3-pro-preview)
     
     Returns:
         str: Analysis results from the AI model
@@ -52,8 +52,8 @@ def main():
     )
     parser.add_argument(
         '-m', '--model',
-        default='gemini-2.0-flash-exp',
-        help='Gemini model to use (default: gemini-2.0-flash-exp)'
+        default='gemini-3-pro-preview',
+        help='Gemini model to use (default: gemini-3-pro-preview)'
     )
     
     args = parser.parse_args()

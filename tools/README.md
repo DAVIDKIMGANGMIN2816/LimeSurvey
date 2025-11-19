@@ -51,13 +51,13 @@ python analyze_race_condition.py
 ### Specify a different model:
 
 ```bash
-python analyze_race_condition.py -m gemini-2.0-flash-exp -f code.cpp
+python analyze_race_condition.py -m gemini-3-pro-preview -f code.cpp
 ```
 
 ## Options
 
 - `-f, --file FILE`: Read C++ code from a file
-- `-m, --model MODEL`: Specify the Gemini model to use (default: gemini-2.0-flash-exp)
+- `-m, --model MODEL`: Specify the Gemini model to use (default: gemini-3-pro-preview)
 - `-h, --help`: Show help message
 
 ## Example
