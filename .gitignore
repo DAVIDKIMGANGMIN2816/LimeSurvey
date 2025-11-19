@@ -228,6 +228,13 @@ selenium-server-standalone-3.7.1.jar
 # Used by Vim and Emacs
 tags
 
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
 # Yarn is our main package manager system -> so ignore npm lock files
 package-lock.json
 
