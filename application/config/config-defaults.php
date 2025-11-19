@@ -868,5 +868,26 @@ $config['reverseProxyIpHeader'] = 'HTTP_X_FORWARDED_FOR';
 // @see https://www.php.net/unserialize
 $config['allow_unserialize_attributedescriptions'] = false;
 
+// Business operator information (required for Korean e-commerce compliance)
+// Configure these values in your config.php file
+$config['businessInfo'] = [
+    'salesNumber' => '', // Communication sales number (통신판매번호)
+    'registrationNumber' => '', // Business registration number (사업자등록번호)
+    'operatingStatus' => '', // Operating status (운영상태)
+    'corporateType' => '', // Corporate type (법인여부)
+    'companyName' => '', // Company name (상호)
+    'representativeName' => '', // Representative name (대표자명)
+    'representativePhone' => '', // Representative phone number (대표전화번호)
+    'salesMethod' => '', // Sales method (판매방식)
+    'productCategories' => '', // Product categories (취급품목)
+    'email' => '', // Email (전자우편)
+    'registrationDate' => '', // Registration date (신고일자)
+    'businessAddress' => '', // Business address (사업장소재지)
+    'roadAddress' => '', // Road name address (도로명)
+    'internetDomains' => '', // Internet domains (인터넷도메인)
+    'hostServerLocation' => '', // Host server location (호스트 서버소재지)
+    'registrationAuthority' => '' // Registration authority (통신판매업신고기관명)
+];
+
 return $config;
 //settings deleted

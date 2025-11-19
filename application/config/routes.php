@@ -57,6 +57,9 @@ $route['optin/participants/<surveyid:\d+>'] = array('optin/participants', 'match
 $route['statistics_user/<surveyid:\d+>'] = array('StatisticsUser/action', 'matchValue'=>true);
 $route['statistics_user/action'] = 'StatisticsUser/action';
 
+//business info
+$route['businessinfo'] = array('businessInfo/index', 'matchValue'=>true);
+
 //$route['<_controller:\w+>/<_action:\w+>'] = '<_controller>/<_action>';
 
 return $route;
