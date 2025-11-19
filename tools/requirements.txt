@@ -1,0 +1,2 @@
+# Python dependencies for C++ Race Condition Analyzer
+google-genai>=0.3.0
