@@ -26,6 +26,8 @@ $(document).on('ready pjax:scriptcomplete', function(){
         if (youtubePostRegex.test(url)) {
             $(this).find(".svgcontainer").remove();
             // Create a link to the YouTube post instead of embedding
+            // Escape the URL to prevent XSS attacks
+            const escapedUrl = $('<div>').text(url).html();
             $(this).html(`
                 <div class="youtube-post-link" style="padding: 20px; text-align: center; border: 1px solid #ccc; border-radius: 4px; background: #f9f9f9;">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 159 110" width="60" height="42" style="margin-bottom: 10px;">
@@ -34,7 +36,7 @@ $(document).on('ready pjax:scriptcomplete', function(){
                     </svg>
                     <p style="margin: 10px 0 5px 0; font-weight: bold;">YouTube Community Post</p>
                     <p style="margin: 5px 0; color: #666; font-size: 0.9em;">This content cannot be embedded. Click below to view on YouTube.</p>
-                    <a href="${url}" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background: #f00; color: white; text-decoration: none; border-radius: 4px;">View on YouTube</a>
+                    <a href="${escapedUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 10px; padding: 10px 20px; background: #f00; color: white; text-decoration: none; border-radius: 4px;">View on YouTube</a>
                 </div>
             `);
             console.ls.log('YouTube post detected, showing link instead');
