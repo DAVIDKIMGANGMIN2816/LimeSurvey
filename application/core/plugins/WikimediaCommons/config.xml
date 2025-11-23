@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metadata>
+        <name>WikimediaCommons</name>
+        <type>plugin</type>
+        <creationDate>2025-11-23</creationDate>
+        <lastUpdate>2025-11-23</lastUpdate>
+        <author>LimeSurvey Community</author>
+        <authorUrl>https://www.limesurvey.org</authorUrl>
+        <supportUrl>https://github.com/commons-app/apps-android-commons</supportUrl>
+        <version>1.0.0</version>
+        <license>GNU General Public License version 2 or later</license>
+        <description><![CDATA[
+        Integration with Wikimedia Commons for uploading survey-related images.
+        
+        Features inspired by the Wikimedia Commons mobile app:
+        - Upload photos to Commons directly from surveys
+        - Categorize photos automatically based on location and title  
+        - Configure default licenses for uploaded content
+        - Require consent for public uploads
+        
+        For more information about Wikimedia Commons, visit:
+        https://commons-app.github.io/
+        ]]></description>
+    </metadata>
+    
+    <compatibility>
+        <version>5.0.0</version>
+    </compatibility>
+    
+    <updaters disabled="true">
+        <updater>
+            <version>1.0.0</version>
+        </updater>
+    </updaters>
+</config>
