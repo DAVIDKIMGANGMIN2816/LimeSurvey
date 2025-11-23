@@ -28,7 +28,7 @@
         <version>5.0.0</version>
     </compatibility>
     
-    <updaters disabled="disabled">
+    <updaters disabled="true">
         <updater>
             <version>1.0.0</version>
         </updater>

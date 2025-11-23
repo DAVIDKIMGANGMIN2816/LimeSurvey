@@ -66,7 +66,6 @@ class WikimediaCommons extends PluginBase
     public function init()
     {
         // Subscribe to file upload events
-        $this->subscribe('afterQuestionSave');
         $this->subscribe('afterSurveyComplete');
         $this->subscribe('beforeSurveySettings');
         $this->subscribe('newSurveySettings');
@@ -213,8 +212,12 @@ class WikimediaCommons extends PluginBase
      */
     protected function log($message)
     {
-        if (defined('LS_DEBUG') && LS_DEBUG) {
-            Yii::log($message, 'info', 'plugins.WikimediaCommons');
+        if (defined('LS_DEBUG') && LS_DEBUG && class_exists('Yii')) {
+            try {
+                Yii::log($message, 'info', 'plugins.WikimediaCommons');
+            } catch (Exception $e) {
+                // Silently fail if logging is not available
+            }
         }
     }
 }
