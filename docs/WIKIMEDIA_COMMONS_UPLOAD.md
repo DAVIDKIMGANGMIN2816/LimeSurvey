@@ -19,7 +19,7 @@ The Wikimedia Commons mobile app allows you to upload photos directly from your 
 
 ### How to Use:
 1. Install the Wikimedia Commons app
-2. Log in to your Wikimedia account (create one for free if needed)
+2. Log in to your Wikimedia account (or [create one for free](https://commons.wikimedia.org/w/index.php?title=Special:CreateAccount))
 3. Select 'From Gallery' or the picture icon
 4. Select the picture you wish to upload to Commons
 5. Enter a title and description for the picture
@@ -45,9 +45,19 @@ The Wikimedia Commons mobile app allows you to upload photos directly from your 
 
 While LimeSurvey has its own file upload functionality for collecting survey responses, users who want to share survey-related photos publicly can upload them to Wikimedia Commons separately.
 
+### Privacy Considerations
+
+**Important**: Wikimedia Commons is a public repository. Before uploading any photos:
+- Ensure you have the necessary rights and permissions
+- Do not upload photos containing personally identifiable information without consent
+- Be aware that all uploads are permanent and publicly accessible
+- Consider anonymizing or blurring faces and sensitive information
+- Follow your institution's ethics guidelines and data protection regulations (GDPR, etc.)
+- Obtain proper consent from subjects in photographs
+
 ### Use Cases:
 - Documenting survey locations or contexts
-- Sharing images collected during field research
+- Sharing images collected during field research (with proper consent)
 - Contributing to open knowledge repositories
 
 ## Resources
