@@ -771,7 +771,7 @@
 <li>개인정보처리방침 시행일 및 변경사항</li>
 </ol>
 <p>아래 설문에 응답하여 개인정보처리방침에 대한 동의 여부를 선택해 주세요.</p>
-<p><strong>시행일: 2025.09.12</strong></p>]]></surveyls_welcometext>
+<p><strong>시행일: [EFFECTIVE_DATE] (예: 2025.09.12)</strong></p>]]></surveyls_welcometext>
     <surveyls_endtext><![CDATA[<h2>설문이 완료되었습니다</h2>
 <p>개인정보처리방침 동의에 참여해 주셔서 감사합니다.</p>
 <p><strong>문의처:</strong></p>

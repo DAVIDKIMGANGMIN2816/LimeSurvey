@@ -2,7 +2,7 @@
 
 This directory contains a LimeSurvey template for collecting Korean privacy policy consent based on the Jeju Air (제주항공) privacy policy format.
 
-## File
+## Template File
 
 - `ls_korean_privacy_policy_survey.lss` - LimeSurvey survey template file (Korean language)
 
@@ -65,16 +65,17 @@ The survey is divided into 3 question groups with 11 questions:
 1. Log in to your LimeSurvey admin panel
 2. Go to **Surveys** → **Create survey** → **Import**
 3. Upload the `.lss` file
-4. Configure admin email and other settings as needed
-5. Activate the survey
+4. **Important:** LimeSurvey will automatically assign a new survey ID to avoid conflicts with existing surveys (the template uses placeholder ID '123456')
+5. Configure admin email and other settings as needed
+6. Activate the survey
 
-## Customization
+## Customization (Required Before Deployment)
 
-Before deploying, update the following:
-- Admin email address
-- Company name and contact information
-- Third-party partner list (if applicable)
-- Privacy policy effective date (currently set to 2025.09.12)
+**⚠️ Important:** Before deploying this survey, you MUST update the following:
+- **Admin email address:** Replace `admin@example.com` with your actual admin email
+- **Company name and contact information:** Update to your organization's details
+- **Third-party partner list:** Modify to reflect your actual data sharing partners
+- **Privacy policy effective date:** Replace `[EFFECTIVE_DATE]` with your actual policy effective date (template shows 2025.09.12 as an example)
 
 ## Contact Information Template
 
