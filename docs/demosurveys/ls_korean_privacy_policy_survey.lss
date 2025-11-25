@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>177</DBVersion>
+ <languages>
+  <language>ko</language>
+ </languages>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[1]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[1]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[2]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[2]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[6]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[6]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[7]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[7]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[8]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[8]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <code><![CDATA[Y]]></code>
+    <answer><![CDATA[예, 동의합니다]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <code><![CDATA[N]]></code>
+    <answer><![CDATA[아니요, 동의하지 않습니다]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[매우 이해하기 어려움]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[2]]></code>
+    <answer><![CDATA[이해하기 어려움]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[2]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[3]]></code>
+    <answer><![CDATA[보통]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[3]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[4]]></code>
+    <answer><![CDATA[이해하기 쉬움]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[4]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[5]]></code>
+    <answer><![CDATA[매우 이해하기 쉬움]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[5]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[1]]></gid>
+    <sid><![CDATA[123456]]></sid>
+    <group_order><![CDATA[1]]></group_order>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[2]]></gid>
+    <sid><![CDATA[123456]]></sid>
+    <group_order><![CDATA[2]]></group_order>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[3]]></gid>
+    <sid><![CDATA[123456]]></sid>
+    <group_order><![CDATA[3]]></group_order>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+  </rows>
+ </groups>
+ <group_l10ns>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[1]]></id>
+    <gid><![CDATA[1]]></gid>
+    <group_name><![CDATA[개인정보의 수집 및 이용]]></group_name>
+    <description><![CDATA[<p>다음은 개인정보의 수집 및 이용에 관한 내용입니다. 각 항목을 읽고 동의 여부를 선택해 주세요.</p>]]></description>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[2]]></id>
+    <gid><![CDATA[2]]></gid>
+    <group_name><![CDATA[개인정보의 제3자 제공 및 위탁]]></group_name>
+    <description><![CDATA[<p>다음은 개인정보의 제3자 제공 및 위탁에 관한 내용입니다. 각 항목을 읽고 동의 여부를 선택해 주세요.</p>]]></description>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[3]]></id>
+    <gid><![CDATA[3]]></gid>
+    <group_name><![CDATA[개인정보 보호 및 설문 완료]]></group_name>
+    <description><![CDATA[<p>다음은 개인정보 보호 및 설문 완료에 관한 내용입니다.</p>]]></description>
+    <language><![CDATA[ko]]></language>
+   </row>
+  </rows>
+ </group_l10ns>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>encrypted</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[1]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q01]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[1]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[2]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q02]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[2]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q03]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[3]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q04]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[4]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q05]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[1]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[6]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q06]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[2]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[7]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q07]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[3]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[8]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[3]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q08]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[1]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[3]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q09]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[2]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[3]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q10]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[3]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[11]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[3]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q11]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <encrypted><![CDATA[N]]></encrypted>
+    <question_order><![CDATA[4]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+  </rows>
+ </questions>
+ <question_l10ns>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>qid</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[1]]></id>
+    <qid><![CDATA[1]]></qid>
+    <question><![CDATA[<p><strong>회원가입 및 서비스 이용을 위한 개인정보 수집</strong></p>
+<p>회원가입 및 서비스 이용을 위해 다음의 개인정보를 수집합니다:</p>
+<ul>
+<li><strong>필수항목:</strong> 아이디, 비밀번호, 성명(한글,영문), 성별, 생년월일, 국적, 거주국가, 이메일 주소, 전화번호(휴대폰번호, 자택번호 중 택일), 연계정보(CI), 중복가입확인정보(DI)</li>
+<li><strong>선택항목:</strong> 여권번호, 탑승자명</li>
+</ul>
+<p>위 내용에 동의하십니까?</p>]]></question>
+    <help><![CDATA[필수항목은 서비스 이용에 반드시 필요한 정보입니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[2]]></id>
+    <qid><![CDATA[2]]></qid>
+    <question><![CDATA[<p><strong>비회원 항공권 예약을 위한 개인정보 수집</strong></p>
+<p>비회원의 항공권 예약 및 서비스 이용을 위해 다음의 개인정보를 수집합니다:</p>
+<ul>
+<li><strong>필수항목:</strong> 성명(탑승자명), 성별, 생년월일, 이메일주소, 연락처(휴대폰 번호, 자택 번호 중 택일), 국적(국내선)</li>
+</ul>
+<p>위 내용에 동의하십니까?</p>]]></question>
+    <help><![CDATA[비회원도 항공권 예약이 가능합니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[3]]></id>
+    <qid><![CDATA[3]]></qid>
+    <question><![CDATA[<p><strong>항공운송 서비스를 위한 개인정보 수집</strong></p>
+<p>항공운송 서비스 과정(악기운송, 애완동물운송, 총포 및 도검류 운송, 소실보장서약, 항공권 환불 신청 위임 등)에서 다음의 개인정보를 수집합니다:</p>
+<ul>
+<li><strong>필수항목:</strong> 성명, 생년월일, 연락처(전화번호, 이메일주소), 주소, 국적, 여권번호</li>
+</ul>
+<p>위 내용에 동의하십니까?</p>]]></question>
+    <help><![CDATA[특수 서비스 이용 시 추가 정보가 필요합니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[4]]></id>
+    <qid><![CDATA[4]]></qid>
+    <question><![CDATA[<p><strong>대금 및 보상금 지급을 위한 개인정보 수집</strong></p>
+<p>유료 서비스 대금 결제, 피해구제 신청 시 보상금 지급, 손실보상금 등의 지급을 위해 다음의 개인정보를 수집합니다:</p>
+<ul>
+<li><strong>신용카드 결제:</strong> 카드번호 및 카드 인증정보 등</li>
+<li><strong>실시간 계좌이체 결제:</strong> 계좌번호 및 결제은행 코드 등</li>
+<li><strong>피해보상금 입금:</strong> 성명, 이메일 주소, 연락처, 주소, 금융기관 계좌정보(예금주, 계좌번호 등)</li>
+</ul>
+<p>보유기간: 전자상거래 등에서의 소비자 보호에 관한 법률에 근거한 기간 보관 후 파기(5년)</p>
+<p>위 내용에 동의하십니까?</p>]]></question>
+    <help><![CDATA[결제 및 환불 처리를 위해 필요한 정보입니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[5]]></id>
+    <qid><![CDATA[5]]></qid>
+    <question><![CDATA[<p><strong>제3자 제공 동의 - 카드 및 은행 상품 서비스</strong></p>
+<p>다음의 제휴사에 개인정보를 제공합니다:</p>
+<ul>
+<li><strong>제공받는자:</strong> KB국민카드, 신한카드, BC카드, 삼성카드, 하나카드, 롯데멤버스㈜, 이제너두</li>
+<li><strong>제공 목적:</strong> 제휴카드 및 상품 이용 고객 서비스 제공, 포인트 적립 및 사용</li>
+<li><strong>제공 항목:</strong> 회원번호, 포인트</li>
+<li><strong>보유기간:</strong> 서비스 종료시까지</li>
+</ul>
+<p>위 내용에 동의하십니까?</p>]]></question>
+    <help><![CDATA[제휴 서비스 이용을 위한 최소한의 정보만 제공됩니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[6]]></id>
+    <qid><![CDATA[6]]></qid>
+    <question><![CDATA[<p><strong>제3자 제공 동의 - 여행 및 부가 서비스</strong></p>
+<p>다음의 제휴사에 개인정보를 제공합니다:</p>
+<ul>
+<li><strong>프라이빗 이동 서비스 (무브):</strong> 예약번호, 회원번호, 성명, 이메일, 전화번호, 여정정보</li>
+<li><strong>렌터카 서비스 (캐플릭스):</strong> 예약번호, 회원번호, 성명, 이메일, 전화번호, 여정정보</li>
+<li><strong>여행상품 서비스 (Klook Travel Technology):</strong> 회원번호, 이메일</li>
+<li><strong>자전거 대여 서비스 (비르투컴퍼니):</strong> 예약번호, 편명, 성명, 전화번호, 여정정보</li>
+<li><strong>골프 서비스 (에이지엘):</strong> 예약번호, 편명, 성명, 전화번호, 국적, 이메일, 여정정보</li>
+</ul>
+<p>보유기간: 서비스 종료시까지</p>
+<p>위 내용에 동의하십니까?</p>]]></question>
+    <help><![CDATA[부가 서비스 이용을 위한 정보 제공입니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[7]]></id>
+    <qid><![CDATA[7]]></qid>
+    <question><![CDATA[<p><strong>개인정보의 국외이전 동의</strong></p>
+<p>서비스 제공을 목적으로 다음과 같이 개인정보를 국외에 이전합니다:</p>
+<ul>
+<li><strong>Navitaire LLC (호주):</strong> 예약발권 서비스를 위해 회원가입, 예약, 결제 정보 이전</li>
+<li><strong>Klook Travel Technology Limited (홍콩):</strong> 해외 현지상품 구매를 위해 회원번호, 이메일 이전</li>
+<li><strong>Alipay Singapore E-Commerce Private Limited (싱가포르):</strong> 해외결제 수단을 이용한 전자결제 서비스 제공</li>
+<li><strong>Clyde & Co LLP (미국/영국/싱가포르/중국/태국):</strong> 법률 자문 서비스 제공</li>
+</ul>
+<p>위 내용에 동의하십니까?</p>]]></question>
+    <help><![CDATA[해외 서비스 제공을 위해 필요한 최소한의 정보만 이전됩니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[8]]></id>
+    <qid><![CDATA[8]]></qid>
+    <question><![CDATA[<p><strong>개인정보의 보유기간 및 파기 안내</strong></p>
+<p>관련 법령에 따라 개인정보를 다음과 같이 보유합니다:</p>
+<ul>
+<li>금융 거래와 관련한 개인정보: 5년 (전자금융거래법 제22조)</li>
+<li>소비자 불만 및 분쟁 처리 위한 기록 관련 개인정보: 3년 (전자상거래법 제6조)</li>
+<li>계약 또는 청약철회, 대금결제, 재화 등의 공급기록: 5년 (전자상거래법 제6조)</li>
+<li>항공 탑승 관련 개인정보: 최소 1년 (항공보안법 제20조)</li>
+<li>통신기록: 3개월 (통신비밀보호법 제15조)</li>
+</ul>
+<p>위 내용을 확인하였습니까?</p>]]></question>
+    <help><![CDATA[법령에 따라 일정 기간 보관 후 파기됩니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[9]]></id>
+    <qid><![CDATA[9]]></qid>
+    <question><![CDATA[<p><strong>정보주체의 권리 안내</strong></p>
+<p>정보주체는 언제든지 다음의 권리를 행사할 수 있습니다:</p>
+<ul>
+<li>개인정보 열람, 정정, 삭제 및 동의철회, 처리정지의 권리</li>
+<li>권리행사는 서면, 전화, 이메일, FAX, 홈페이지, 상담 등을 통해 가능</li>
+<li>요구 접수 후 10일 이내 처리</li>
+</ul>
+<p><strong>개인정보보호책임자(CPO):</strong></p>
+<ul>
+<li>이름: 조윤성</li>
+<li>직책: 정보보호실 실장</li>
+<li>위치: 서울특별시 강서구 하늘길 76 (항공지원센터)</li>
+</ul>
+<p><strong>고충처리 담당부서:</strong> 1599-1500 (365일 09:00-19:00)</p>
+<p>위 내용을 확인하였습니까?</p>]]></question>
+    <help><![CDATA[개인정보 관련 문의는 고객센터로 연락해 주세요.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[10]]></id>
+    <qid><![CDATA[10]]></qid>
+    <question><![CDATA[<p><strong>개인정보처리방침의 이해도</strong></p>
+<p>본 개인정보처리방침의 내용이 얼마나 이해하기 쉬웠습니까?</p>]]></question>
+    <help><![CDATA[귀하의 소중한 의견을 반영하여 개선하겠습니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[11]]></id>
+    <qid><![CDATA[11]]></qid>
+    <question><![CDATA[<p><strong>개선 의견</strong></p>
+<p>개인정보처리방침에 대한 개선 의견이 있으시면 자유롭게 작성해 주세요.</p>]]></question>
+    <help><![CDATA[선택 사항입니다.]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+  </rows>
+ </question_l10ns>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>showsurveypolicynotice</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>questionindex</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[123456]]></sid>
+    <admin><![CDATA[Administrator]]></admin>
+    <adminemail><![CDATA[admin@example.com]]></adminemail>
+    <anonymized><![CDATA[N]]></anonymized>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[Y]]></savetimings>
+    <template><![CDATA[fruity_twentythree]]></template>
+    <language><![CDATA[ko]]></language>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowsave><![CDATA[Y]]></allowsave>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[Y]]></allowprev>
+    <printanswers><![CDATA[Y]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[N]]></refurl>
+    <showsurveypolicynotice><![CDATA[2]]></showsurveypolicynotice>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[N]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <bounce_email><![CDATA[admin@example.com]]></bounce_email>
+    <showwelcome><![CDATA[Y]]></showwelcome>
+    <showprogress><![CDATA[Y]]></showprogress>
+    <questionindex><![CDATA[1]]></questionindex>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>surveyls_policy_notice</fieldname>
+   <fieldname>surveyls_policy_error</fieldname>
+   <fieldname>surveyls_policy_notice_label</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[123456]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[ko]]></surveyls_language>
+    <surveyls_title><![CDATA[개인정보처리방침 동의 설문조사]]></surveyls_title>
+    <surveyls_description><![CDATA[<p>본 설문조사는 개인정보처리방침에 대한 동의를 수집하기 위한 것입니다.</p>
+<p>관련 법령: 개인정보보호법, 정보통신망법, 항공보안법, 전자상거래법 등</p>]]></surveyls_description>
+    <surveyls_welcometext><![CDATA[<h2>개인정보처리방침</h2>
+<p>주식회사 제주항공은 관련 법령에 따라 이용자의 개인정보를 안전하게 처리하고 있습니다.</p>
+<p>제주항공은 아래와 같이 개인정보처리방침을 공개하여 이용자의 개인정보 처리 및 안전한 보호 조치에 대해 자세히 안내하고 있습니다.</p>
+<h3>목차</h3>
+<ol>
+<li>개인정보의 수집 및 이용</li>
+<li>개인정보의 제3자 제공 및 위탁</li>
+<li>개인정보의 국외이전</li>
+<li>개인정보의 보유기간 및 파기</li>
+<li>개인정보의 안전성 확보조치</li>
+<li>개인정보의 자동수집장치의 처리</li>
+<li>정보주체와 법정대리인의 권리 및 의무행사 방법</li>
+<li>개인정보보호책임자 및 고충처리 담당부서</li>
+<li>개인정보처리방침 시행일 및 변경사항</li>
+</ol>
+<p>아래 설문에 응답하여 개인정보처리방침에 대한 동의 여부를 선택해 주세요.</p>
+<p><strong>시행일: 2025.09.12</strong></p>]]></surveyls_welcometext>
+    <surveyls_endtext><![CDATA[<h2>설문이 완료되었습니다</h2>
+<p>개인정보처리방침 동의에 참여해 주셔서 감사합니다.</p>
+<p><strong>문의처:</strong></p>
+<ul>
+<li>고객센터: 1599-1500 (09:00~19:00)</li>
+<li>이메일: jejuair.help@jejuair.net</li>
+<li>주소: 제주특별자치도 제주시 신대로 64 (연동, 건설공제회관 3층)</li>
+</ul>
+<p>동의 철회 및 서비스 탈퇴를 원하시면 설정(마이페이지-회원정보수정-회원탈퇴)에서 언제든 적용하실 수 있습니다.</p>]]></surveyls_endtext>
+    <surveyls_url><![CDATA[]]></surveyls_url>
+    <surveyls_urldescription><![CDATA[]]></surveyls_urldescription>
+    <surveyls_dateformat><![CDATA[5]]></surveyls_dateformat>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+    <surveyls_policy_notice><![CDATA[<p>본 설문조사에서 수집된 정보는 개인정보보호법 및 관련 법령에 따라 처리됩니다.</p>]]></surveyls_policy_notice>
+    <surveyls_policy_error><![CDATA[<p>개인정보처리방침에 동의하셔야 설문에 참여하실 수 있습니다.</p>]]></surveyls_policy_error>
+    <surveyls_policy_notice_label><![CDATA[개인정보처리방침에 동의합니다.]]></surveyls_policy_notice_label>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>
