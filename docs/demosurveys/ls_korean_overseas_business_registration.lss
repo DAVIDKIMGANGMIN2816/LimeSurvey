@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+ <LimeSurveyDocType>Survey</LimeSurveyDocType>
+ <DBVersion>177</DBVersion>
+ <languages>
+  <language>ko</language>
+ </languages>
+ <answers>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>code</fieldname>
+   <fieldname>answer</fieldname>
+   <fieldname>sortorder</fieldname>
+   <fieldname>assessment_value</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>scale_id</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[통신판매업 신고]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <code><![CDATA[2]]></code>
+    <answer><![CDATA[영업중]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <code><![CDATA[3]]></code>
+    <answer><![CDATA[휴업]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <code><![CDATA[4]]></code>
+    <answer><![CDATA[폐업]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[법인]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <code><![CDATA[2]]></code>
+    <answer><![CDATA[개인]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[인터넷]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <code><![CDATA[2]]></code>
+    <answer><![CDATA[모바일]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <code><![CDATA[3]]></code>
+    <answer><![CDATA[TV홈쇼핑]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <code><![CDATA[4]]></code>
+    <answer><![CDATA[카탈로그]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <code><![CDATA[5]]></code>
+    <answer><![CDATA[기타]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[종합몰]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[2]]></code>
+    <answer><![CDATA[의류/패션]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[3]]></code>
+    <answer><![CDATA[전자제품]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[4]]></code>
+    <answer><![CDATA[식품]]></answer>
+    <sortorder><![CDATA[4]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[5]]></code>
+    <answer><![CDATA[화장품]]></answer>
+    <sortorder><![CDATA[5]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <code><![CDATA[6]]></code>
+    <answer><![CDATA[기타]]></answer>
+    <sortorder><![CDATA[6]]></sortorder>
+    <assessment_value><![CDATA[1]]></assessment_value>
+    <language><![CDATA[ko]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+  </rows>
+ </answers>
+ <groups>
+  <fields>
+   <fieldname>gid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>group_order</fieldname>
+   <fieldname>randomization_group</fieldname>
+   <fieldname>grelevance</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <gid><![CDATA[1]]></gid>
+    <sid><![CDATA[123456]]></sid>
+    <group_order><![CDATA[1]]></group_order>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[2]]></gid>
+    <sid><![CDATA[123456]]></sid>
+    <group_order><![CDATA[2]]></group_order>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+   <row>
+    <gid><![CDATA[3]]></gid>
+    <sid><![CDATA[123456]]></sid>
+    <group_order><![CDATA[3]]></group_order>
+    <randomization_group><![CDATA[]]></randomization_group>
+    <grelevance><![CDATA[1]]></grelevance>
+   </row>
+  </rows>
+ </groups>
+ <group_l10ns>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>group_name</fieldname>
+   <fieldname>description</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[1]]></id>
+    <gid><![CDATA[1]]></gid>
+    <group_name><![CDATA[기본 사업자 정보]]></group_name>
+    <description><![CDATA[<p>통신판매번호, 사업자등록번호, 운영상태, 법인여부, 상호, 대표자명 등 기본 사업자 정보를 입력해 주세요.</p>]]></description>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[2]]></id>
+    <gid><![CDATA[2]]></gid>
+    <group_name><![CDATA[연락처 정보]]></group_name>
+    <description><![CDATA[<p>대표 전화번호, 전자우편(E-mail), 사업장 소재지 등 연락처 정보를 입력해 주세요.</p>]]></description>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[3]]></id>
+    <gid><![CDATA[3]]></gid>
+    <group_name><![CDATA[인터넷 및 서버 정보]]></group_name>
+    <description><![CDATA[<p>인터넷 도메인, 호스트 서버 소재지 등 인터넷 관련 정보를 입력해 주세요.</p>]]></description>
+    <language><![CDATA[ko]]></language>
+   </row>
+  </rows>
+ </group_l10ns>
+ <questions>
+  <fields>
+   <fieldname>qid</fieldname>
+   <fieldname>parent_qid</fieldname>
+   <fieldname>sid</fieldname>
+   <fieldname>gid</fieldname>
+   <fieldname>type</fieldname>
+   <fieldname>title</fieldname>
+   <fieldname>preg</fieldname>
+   <fieldname>other</fieldname>
+   <fieldname>mandatory</fieldname>
+   <fieldname>question_order</fieldname>
+   <fieldname>scale_id</fieldname>
+   <fieldname>same_default</fieldname>
+   <fieldname>relevance</fieldname>
+   <fieldname>modulename</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <qid><![CDATA[1]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q01]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[2]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q02]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[3]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q03]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[4]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q04]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[5]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q05]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[6]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q06]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[7]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q07]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[8]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q08]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[9]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q09]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[Y]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[3]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[10]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[Q10]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[Y]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[4]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[11]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[D]]></type>
+    <title><![CDATA[Q11]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[5]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[12]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q12]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[6]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[13]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q13]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[7]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[14]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[3]]></gid>
+    <type><![CDATA[S]]></type>
+    <title><![CDATA[Q14]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+   <row>
+    <qid><![CDATA[15]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[123456]]></sid>
+    <gid><![CDATA[3]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[Q15]]></title>
+    <preg><![CDATA[]]></preg>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[2]]></question_order>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename><![CDATA[]]></modulename>
+   </row>
+  </rows>
+ </questions>
+ <question_l10ns>
+  <fields>
+   <fieldname>id</fieldname>
+   <fieldname>qid</fieldname>
+   <fieldname>question</fieldname>
+   <fieldname>help</fieldname>
+   <fieldname>language</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <id><![CDATA[1]]></id>
+    <qid><![CDATA[1]]></qid>
+    <question><![CDATA[통신판매번호]]></question>
+    <help><![CDATA[예: 2025-공정-0013]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[2]]></id>
+    <qid><![CDATA[2]]></qid>
+    <question><![CDATA[사업자등록번호]]></question>
+    <help><![CDATA[10자리 사업자등록번호를 입력하세요 (해당되는 경우)]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[3]]></id>
+    <qid><![CDATA[3]]></qid>
+    <question><![CDATA[운영상태]]></question>
+    <help><![CDATA[현재 사업체의 운영 상태를 선택하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[4]]></id>
+    <qid><![CDATA[4]]></qid>
+    <question><![CDATA[법인여부]]></question>
+    <help><![CDATA[법인 또는 개인 사업자 여부를 선택하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[5]]></id>
+    <qid><![CDATA[5]]></qid>
+    <question><![CDATA[상호]]></question>
+    <help><![CDATA[사업체의 상호(회사명)를 입력하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[6]]></id>
+    <qid><![CDATA[6]]></qid>
+    <question><![CDATA[대표자명]]></question>
+    <help><![CDATA[사업체 대표자의 성명을 입력하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[7]]></id>
+    <qid><![CDATA[7]]></qid>
+    <question><![CDATA[대표 전화번호]]></question>
+    <help><![CDATA[연락 가능한 대표 전화번호를 입력하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[8]]></id>
+    <qid><![CDATA[8]]></qid>
+    <question><![CDATA[전자우편(E-mail)]]></question>
+    <help><![CDATA[연락 가능한 이메일 주소를 입력하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[9]]></id>
+    <qid><![CDATA[9]]></qid>
+    <question><![CDATA[판매방식]]></question>
+    <help><![CDATA[주요 판매 방식을 선택하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[10]]></id>
+    <qid><![CDATA[10]]></qid>
+    <question><![CDATA[취급품목]]></question>
+    <help><![CDATA[주요 취급 품목을 선택하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[11]]></id>
+    <qid><![CDATA[11]]></qid>
+    <question><![CDATA[신고일자]]></question>
+    <help><![CDATA[통신판매업 신고일자를 선택하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[12]]></id>
+    <qid><![CDATA[12]]></qid>
+    <question><![CDATA[사업장 소재지]]></question>
+    <help><![CDATA[사업장의 주소를 입력하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[13]]></id>
+    <qid><![CDATA[13]]></qid>
+    <question><![CDATA[사업장 소재지(도로명)]]></question>
+    <help><![CDATA[사업장의 도로명 주소를 입력하세요 (선택사항)]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[14]]></id>
+    <qid><![CDATA[14]]></qid>
+    <question><![CDATA[인터넷 도메인]]></question>
+    <help><![CDATA[예: https://www.example.com]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+   <row>
+    <id><![CDATA[15]]></id>
+    <qid><![CDATA[15]]></qid>
+    <question><![CDATA[호스트 서버 소재지]]></question>
+    <help><![CDATA[서버가 위치한 국가, 회사명 및 주소를 입력하세요]]></help>
+    <language><![CDATA[ko]]></language>
+   </row>
+  </rows>
+ </question_l10ns>
+ <surveys>
+  <fields>
+   <fieldname>sid</fieldname>
+   <fieldname>admin</fieldname>
+   <fieldname>expires</fieldname>
+   <fieldname>startdate</fieldname>
+   <fieldname>adminemail</fieldname>
+   <fieldname>anonymized</fieldname>
+   <fieldname>faxto</fieldname>
+   <fieldname>format</fieldname>
+   <fieldname>savetimings</fieldname>
+   <fieldname>template</fieldname>
+   <fieldname>language</fieldname>
+   <fieldname>additional_languages</fieldname>
+   <fieldname>datestamp</fieldname>
+   <fieldname>usecookie</fieldname>
+   <fieldname>allowregister</fieldname>
+   <fieldname>allowsave</fieldname>
+   <fieldname>autonumber_start</fieldname>
+   <fieldname>autoredirect</fieldname>
+   <fieldname>allowprev</fieldname>
+   <fieldname>printanswers</fieldname>
+   <fieldname>ipaddr</fieldname>
+   <fieldname>refurl</fieldname>
+   <fieldname>publicstatistics</fieldname>
+   <fieldname>publicgraphs</fieldname>
+   <fieldname>listpublic</fieldname>
+   <fieldname>htmlemail</fieldname>
+   <fieldname>sendconfirmation</fieldname>
+   <fieldname>tokenanswerspersistence</fieldname>
+   <fieldname>assessments</fieldname>
+   <fieldname>usecaptcha</fieldname>
+   <fieldname>usetokens</fieldname>
+   <fieldname>bounce_email</fieldname>
+   <fieldname>attributedescriptions</fieldname>
+   <fieldname>emailresponseto</fieldname>
+   <fieldname>emailnotificationto</fieldname>
+   <fieldname>tokenlength</fieldname>
+   <fieldname>showxquestions</fieldname>
+   <fieldname>showgroupinfo</fieldname>
+   <fieldname>shownoanswer</fieldname>
+   <fieldname>showqnumcode</fieldname>
+   <fieldname>bouncetime</fieldname>
+   <fieldname>bounceprocessing</fieldname>
+   <fieldname>bounceaccounttype</fieldname>
+   <fieldname>bounceaccounthost</fieldname>
+   <fieldname>bounceaccountpass</fieldname>
+   <fieldname>bounceaccountencryption</fieldname>
+   <fieldname>bounceaccountuser</fieldname>
+   <fieldname>showwelcome</fieldname>
+   <fieldname>showprogress</fieldname>
+   <fieldname>navigationdelay</fieldname>
+   <fieldname>nokeyboard</fieldname>
+   <fieldname>alloweditaftercompletion</fieldname>
+   <fieldname>googleanalyticsstyle</fieldname>
+   <fieldname>googleanalyticsapikey</fieldname>
+   <fieldname>gsid</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <sid><![CDATA[123456]]></sid>
+    <admin><![CDATA[admin]]></admin>
+    <expires><![CDATA[]]></expires>
+    <startdate><![CDATA[]]></startdate>
+    <adminemail/>
+    <anonymized><![CDATA[N]]></anonymized>
+    <faxto><![CDATA[]]></faxto>
+    <format><![CDATA[G]]></format>
+    <savetimings><![CDATA[Y]]></savetimings>
+    <template><![CDATA[fruity]]></template>
+    <language><![CDATA[ko]]></language>
+    <additional_languages><![CDATA[]]></additional_languages>
+    <datestamp><![CDATA[Y]]></datestamp>
+    <usecookie><![CDATA[N]]></usecookie>
+    <allowregister><![CDATA[N]]></allowregister>
+    <allowsave><![CDATA[Y]]></allowsave>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
+    <autoredirect><![CDATA[N]]></autoredirect>
+    <allowprev><![CDATA[Y]]></allowprev>
+    <printanswers><![CDATA[Y]]></printanswers>
+    <ipaddr><![CDATA[N]]></ipaddr>
+    <refurl><![CDATA[N]]></refurl>
+    <publicstatistics><![CDATA[N]]></publicstatistics>
+    <publicgraphs><![CDATA[N]]></publicgraphs>
+    <listpublic><![CDATA[N]]></listpublic>
+    <htmlemail><![CDATA[Y]]></htmlemail>
+    <sendconfirmation><![CDATA[Y]]></sendconfirmation>
+    <tokenanswerspersistence><![CDATA[N]]></tokenanswerspersistence>
+    <assessments><![CDATA[N]]></assessments>
+    <usecaptcha><![CDATA[N]]></usecaptcha>
+    <usetokens><![CDATA[N]]></usetokens>
+    <bounce_email/>
+    <attributedescriptions><![CDATA[]]></attributedescriptions>
+    <emailresponseto><![CDATA[]]></emailresponseto>
+    <emailnotificationto><![CDATA[]]></emailnotificationto>
+    <tokenlength><![CDATA[15]]></tokenlength>
+    <showxquestions><![CDATA[Y]]></showxquestions>
+    <showgroupinfo><![CDATA[B]]></showgroupinfo>
+    <shownoanswer><![CDATA[Y]]></shownoanswer>
+    <showqnumcode><![CDATA[X]]></showqnumcode>
+    <bouncetime><![CDATA[]]></bouncetime>
+    <bounceprocessing><![CDATA[N]]></bounceprocessing>
+    <bounceaccounttype><![CDATA[]]></bounceaccounttype>
+    <bounceaccounthost><![CDATA[]]></bounceaccounthost>
+    <bounceaccountpass><![CDATA[]]></bounceaccountpass>
+    <bounceaccountencryption><![CDATA[]]></bounceaccountencryption>
+    <bounceaccountuser><![CDATA[]]></bounceaccountuser>
+    <showwelcome><![CDATA[Y]]></showwelcome>
+    <showprogress><![CDATA[Y]]></showprogress>
+    <navigationdelay><![CDATA[0]]></navigationdelay>
+    <nokeyboard><![CDATA[N]]></nokeyboard>
+    <alloweditaftercompletion><![CDATA[N]]></alloweditaftercompletion>
+    <googleanalyticsstyle><![CDATA[0]]></googleanalyticsstyle>
+    <googleanalyticsapikey><![CDATA[]]></googleanalyticsapikey>
+    <gsid><![CDATA[1]]></gsid>
+   </row>
+  </rows>
+ </surveys>
+ <surveys_languagesettings>
+  <fields>
+   <fieldname>surveyls_survey_id</fieldname>
+   <fieldname>surveyls_language</fieldname>
+   <fieldname>surveyls_title</fieldname>
+   <fieldname>surveyls_description</fieldname>
+   <fieldname>surveyls_welcometext</fieldname>
+   <fieldname>surveyls_endtext</fieldname>
+   <fieldname>surveyls_url</fieldname>
+   <fieldname>surveyls_urldescription</fieldname>
+   <fieldname>surveyls_email_invite_subj</fieldname>
+   <fieldname>surveyls_email_invite</fieldname>
+   <fieldname>surveyls_email_remind_subj</fieldname>
+   <fieldname>surveyls_email_remind</fieldname>
+   <fieldname>surveyls_email_register_subj</fieldname>
+   <fieldname>surveyls_email_register</fieldname>
+   <fieldname>surveyls_email_confirm_subj</fieldname>
+   <fieldname>surveyls_email_confirm</fieldname>
+   <fieldname>surveyls_dateformat</fieldname>
+   <fieldname>surveyls_attributecaptions</fieldname>
+   <fieldname>email_admin_notification_subj</fieldname>
+   <fieldname>email_admin_notification</fieldname>
+   <fieldname>email_admin_responses_subj</fieldname>
+   <fieldname>email_admin_responses</fieldname>
+   <fieldname>surveyls_numberformat</fieldname>
+   <fieldname>attachments</fieldname>
+  </fields>
+  <rows>
+   <row>
+    <surveyls_survey_id><![CDATA[123456]]></surveyls_survey_id>
+    <surveyls_language><![CDATA[ko]]></surveyls_language>
+    <surveyls_title><![CDATA[국외사업자 등록현황 (해외 통신판매업자 신원정보)]]></surveyls_title>
+    <surveyls_description><![CDATA[<p>본 설문조사는 전자상거래소비자보호법 제12조4항에 따라 국외통신판매업자의 신원정보를 수집하기 위한 양식입니다.</p>
+<p>이 정보는 전자상거래시장에서 소비자가 정확한 사업자 정보를 가지고 안전한 거래를 할 수 있도록 전국 시, 군, 구에 신고된 국외통신판매업자의 신원정보를 제공하는 목적으로 사용됩니다.</p>]]></surveyls_description>
+    <surveyls_welcometext><![CDATA[<p>국외사업자 등록현황 설문에 오신 것을 환영합니다.</p>
+<p>아래의 정보를 정확하게 입력해 주시기 바랍니다. 제공된 정보는 전자상거래소비자보호법에 따라 공개될 수 있습니다.</p>
+<p><strong>수집 항목:</strong> 통신판매번호, 사업자등록번호, 운영상태, 법인여부, 상호, 대표자명, 대표 전화번호, 판매방식, 취급품목, 전자우편(E-mail), 신고일자, 사업장소재지, 사업장소재지(도로명), 인터넷도메인, 호스트서버 소재지</p>]]></surveyls_welcometext>
+    <surveyls_endtext><![CDATA[<p>설문에 참여해 주셔서 감사합니다.</p>
+<p>제출하신 정보는 전자상거래소비자보호법 제12조4항에 따라 처리됩니다.</p>
+<p><strong>참고사항:</strong></p>
+<ul>
+<li>사업자 정보에 대한 궁금한 사항이나 사업자의 신원정보가 정보공개 내용과 불일치할 경우에는 해당 신고기관(지방자치단체)에 문의하여 주시기 바랍니다.</li>
+<li>일부 사업자의 경우, 부가가치세법상 사업자 폐업 신고는 하였으나 전자상거래법상 통신판매업 폐업 신고는 하지 않은 사례가 있을 수 있습니다.</li>
+<li>소비자 피해를 방지하기 위해 부가가치세법상 사업자 폐업 여부도 국세청 홈택스 페이지(www.hometax.go.kr)의 사업자등록상태조회 코너를 통해 확인하시기 바랍니다.</li>
+</ul>]]></surveyls_endtext>
+    <surveyls_url><![CDATA[]]></surveyls_url>
+    <surveyls_urldescription><![CDATA[]]></surveyls_urldescription>
+    <surveyls_email_invite_subj><![CDATA[국외사업자 등록현황 설문조사 참여 요청]]></surveyls_email_invite_subj>
+    <surveyls_email_invite><![CDATA[{FIRSTNAME}님 안녕하세요,
+
+국외사업자 등록현황 설문조사에 참여해 주시기 바랍니다.
+
+이 설문조사는 전자상거래소비자보호법 제12조4항에 따라 국외통신판매업자의 신원정보를 수집하기 위한 것입니다.
+
+설문조사에 참여하시려면 아래 링크를 클릭하세요:
+{SURVEYURL}
+
+감사합니다.
+{ADMINNAME} ({ADMINEMAIL})]]></surveyls_email_invite>
+    <surveyls_email_remind_subj><![CDATA[국외사업자 등록현황 설문조사 알림]]></surveyls_email_remind_subj>
+    <surveyls_email_remind><![CDATA[{FIRSTNAME}님 안녕하세요,
+
+아직 국외사업자 등록현황 설문조사를 완료하지 않으셨습니다.
+
+설문조사를 완료하시려면 아래 링크를 클릭하세요:
+{SURVEYURL}
+
+감사합니다.
+{ADMINNAME} ({ADMINEMAIL})]]></surveyls_email_remind>
+    <surveyls_email_register_subj><![CDATA[설문조사 등록 확인]]></surveyls_email_register_subj>
+    <surveyls_email_register><![CDATA[{FIRSTNAME}님 안녕하세요,
+
+설문조사에 등록해 주셔서 감사합니다.
+
+설문조사에 참여하시려면 아래 링크를 클릭하세요:
+{SURVEYURL}
+
+감사합니다.
+{ADMINNAME} ({ADMINEMAIL})]]></surveyls_email_register>
+    <surveyls_email_confirm_subj><![CDATA[국외사업자 등록현황 설문조사 제출 확인]]></surveyls_email_confirm_subj>
+    <surveyls_email_confirm><![CDATA[{FIRSTNAME}님 안녕하세요,
+
+국외사업자 등록현황 설문조사가 성공적으로 제출되었습니다.
+
+제출하신 정보는 전자상거래소비자보호법 제12조4항에 따라 처리됩니다.
+
+감사합니다.
+{ADMINNAME} ({ADMINEMAIL})]]></surveyls_email_confirm>
+    <surveyls_dateformat><![CDATA[6]]></surveyls_dateformat>
+    <surveyls_attributecaptions><![CDATA[]]></surveyls_attributecaptions>
+    <email_admin_notification_subj><![CDATA[새로운 국외사업자 등록현황 제출]]></email_admin_notification_subj>
+    <email_admin_notification><![CDATA[안녕하세요,
+
+새로운 국외사업자 등록현황 정보가 제출되었습니다.
+
+관리자 패널에서 확인해 주세요.
+{ADMINURL}
+
+감사합니다.]]></email_admin_notification>
+    <email_admin_responses_subj><![CDATA[국외사업자 등록현황 응답 내용]]></email_admin_responses_subj>
+    <email_admin_responses><![CDATA[안녕하세요,
+
+새로운 국외사업자 등록현황 정보가 제출되었습니다.
+
+{ANSWERTABLE}
+
+관리자 패널에서 확인해 주세요.
+{ADMINURL}
+
+감사합니다.]]></email_admin_responses>
+    <surveyls_numberformat><![CDATA[0]]></surveyls_numberformat>
+    <attachments><![CDATA[]]></attachments>
+   </row>
+  </rows>
+ </surveys_languagesettings>
+</document>
