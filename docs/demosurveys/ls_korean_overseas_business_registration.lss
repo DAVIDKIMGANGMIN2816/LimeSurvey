@@ -675,7 +675,7 @@
     <admin><![CDATA[admin]]></admin>
     <expires><![CDATA[]]></expires>
     <startdate><![CDATA[]]></startdate>
-    <adminemail><![CDATA[admin@example.com]]></adminemail>
+    <adminemail/>
     <anonymized><![CDATA[N]]></anonymized>
     <faxto><![CDATA[]]></faxto>
     <format><![CDATA[G]]></format>
@@ -702,7 +702,7 @@
     <assessments><![CDATA[N]]></assessments>
     <usecaptcha><![CDATA[N]]></usecaptcha>
     <usetokens><![CDATA[N]]></usetokens>
-    <bounce_email><![CDATA[admin@example.com]]></bounce_email>
+    <bounce_email/>
     <attributedescriptions><![CDATA[]]></attributedescriptions>
     <emailresponseto><![CDATA[]]></emailresponseto>
     <emailnotificationto><![CDATA[]]></emailnotificationto>
